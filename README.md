@@ -15,4 +15,4 @@ In order to re-compile the binary (e.g. on a Raspberry Pi), the following librar
 sudo apt-get install libcups2-dev libcupsimage2-dev g++ cups cups-client
 ```
 
-After that, `make` and `install` do the right thing.
+After that, `make` and `sudo ./install` do the right thing.
