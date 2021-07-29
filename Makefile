@@ -1,6 +1,8 @@
 CC=gcc
 RM=rm -f
-CFLAGS=-Wl,-rpath,/usr/lib -Wall -fPIC -O3
+# See: https://forums.adafruit.com/viewtopic.php?f=8&p=764152
+CFLAGS=-Wl,-rpath,/usr/lib -Wall -fPIC -O3 -std=gnu89
+#CFLAGS=-Wl,-rpath,/usr/lib -Wall -fPIC -O3
 LDFLAGS=
 LDLIBS=-lcupsimage -lcups
 
